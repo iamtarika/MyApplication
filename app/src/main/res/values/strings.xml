@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">test</string>
+    <string name="tv_test">TEST</string>
+    <string name="tv_hello_world">Hello World!</string>
+</resources>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jnstar.test.MainActivity"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello padding"
+        android:textAppearance="@style/tv_hello_world"
+        android:padding="25dp"
+        android:id="@+id/tv_padding"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello margin"
+        android:textAppearance="@style/tv_hello_world"
+        android:layout_margin="25dp"
+        android:id="@+id/tv_margin"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello mp"
+        android:textAppearance="@style/tv_hello_world"
+        android:id="@+id/tv_mp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello wc"
+        android:textAppearance="@style/tv_hello_world"
+        android:id="@+id/tv_wc"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ll_noi">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:text="bababa!"
+            android:background="@color/colorAccent"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="babanana!"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OK"
+            android:backgroundTint="@color/button"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_star_half_black_24dp"
+            android:backgroundTint="#00BFA5"
+            android:tint="#FFFFFF"
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="gravity test"
+        android:gravity="bottom"
+        />
+
+    <Switch
+        android:id="@+id/sw_option1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:theme="@style/BrandedSwitch"
+        />
+
+
+</LinearLayout>
